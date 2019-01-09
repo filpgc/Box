@@ -14,25 +14,4 @@ createBox(1, 8, ch);    //Test 3.
 -- The first argument is the width, the second is the length, the third is the array of characters --
 
 This is the ouput obtained:
-1)
- ˹ ˗ ˗ ˗ ˗ ˗ ˗ ˗ ˗ ˺
- |                 |
- |                 |
- |                 |
- |                 |
- |                 |
- |                 |
- |                 |
- |                 |
- ˻ ˗ ˗ ˗ ˗ ˗ ˗ ˗ ˗ ˼
- 2)
- ˹ ˗ ˗ ˗ ˺
- |       |
- |       |
- |       |
- |       |
- |       |
- |       |
- ˻ ˗ ˗ ˗ ˼
- 3) I can't draw this box, it is a dot or a line.. not a box! Increase the width and/or the length please.
-
+<a href="https://ibb.co/3mpFFhP"><img src="https://i.ibb.co/F45YY7d/Screen-Shot-2019-01-09-at-11-40-26.png" alt="Screen-Shot-2019-01-09-at-11-40-26" border="0"></a>
