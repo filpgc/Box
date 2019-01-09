@@ -6,7 +6,7 @@ This if statement could have been put at the beginning of the method in order to
 
 In the printSequence method, the for loop iterates through the width of the box printing each character. Important here is to distinguish among the initial position (i=1), the final position (i = length), and the positions in between as not the same characters are printed in all those positions.
 
-The file 'Treatwell.java' contains a class, the methods createBox, printSequence, the main method, and a method whose task is just to declare and initialise the array of characters used to build the box. Here, in this file, three tests are conducted from the main method:
+The file 'Treatwell.java' contains a class, the methods createBox, printSequence, the main method, and a method whose task is just to declare, initialise and return the array of characters used to build the box. Here, in this file, three tests are conducted from the main method:
 
 createBox(10, 10, ch);  //Test 1.\
 createBox(5, 8, ch);    //Test 2.\
