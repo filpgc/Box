@@ -1,9 +1,9 @@
 
 
     // This method create the box based on the width, the length and the characters given.
-    private static void createBox(int width, int length, char[] array) {
+    private static void createBox(int width, int length) {
         //Array of characters, to store the 6 different characters that build the box.
-        char[] ch = new char[6];
+        char[] array = new char[6];
         //Array of integers, UNICODE codes.
         int[] values = {
                 761,    // ˹
@@ -13,9 +13,9 @@
                 764,    // ˼
                 124     // |
         };
-        // Conversion from UNICODE code to char for each element of the 'ch' array.
+        // Conversion from UNICODE code to char for each element of the array.
         for (int i = 0; i < values.length; i++)
-            ch[i] = (char) values[i];
+            array[i] = (char) values[i];
         // Checks if both the width and the length given are greater than 1
         if (width > 1 && length > 1) {
             for (int y = 1; y <= length; y++) { //Loops through the length.
