@@ -8,10 +8,10 @@ In the printSequence method, the for loop iterates through the width of the box 
 
 The file 'Treatwell.java' contains a class, the methods createBox, PrintSequence, the main method, and a method whose task is just to declare and initialise the array of characters used to build the box. Here, in this file, three tests are conducted from the main method:
 
-createBox(10, 10, ch);  //Test 1. 
-createBox(5, 8, ch);    //Test 2.
-createBox(1, 8, ch);    //Test 3.
+createBox(10, 10, ch);  //Test 1.\
+createBox(5, 8, ch);    //Test 2.\
+createBox(1, 8, ch);    //Test 3.\
 -- The first argument is the width, the second is the length, the third is the array of characters --
 
-This is the ouput obtained:
+This is the ouput obtained:\
 <a href="https://ibb.co/3mpFFhP"><img src="https://i.ibb.co/F45YY7d/Screen-Shot-2019-01-09-at-11-40-26.png" alt="Screen-Shot-2019-01-09-at-11-40-26" border="0"></a>
